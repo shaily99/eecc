@@ -1,3 +1,2 @@
-Source for "/home/shailyjb/pref_cult/world_value_survey_data/wvs_questions_data/questions.json": https://github.com/BKHMSI/cultural-trends/blob/main/dataset/wvs_questions_dump.json
-Source for "/home/shailyjb/pref_cult/world_value_survey/wvs_w7_raw_data.csv": https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
-Source for "/home/shailyjb/pref_cult/world_value_survey/questions_metadata.json": https://github.com/Demon702/WorldValuesBench/blob/main/dataset_construction/question_metadata.json
+Source for "questions.json": https://github.com/BKHMSI/cultural-trends/blob/main/dataset/wvs_questions_dump.json
+Source for "questions_metadata.json": https://github.com/Demon702/WorldValuesBench/blob/main/dataset_construction/question_metadata.json
