@@ -1,3 +1,3 @@
-# Extrinsic Evaluation of Cultural Competence
+# Extrinsic Evaluation of Cultural Competence in LLMs
 
 coming soon...
