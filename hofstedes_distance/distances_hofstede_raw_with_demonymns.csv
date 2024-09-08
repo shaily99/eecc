@@ -1,0 +1,112 @@
+ctr,country,Demonym,pdi,idv,mas,uai,ltowvs,ivr
+AFE,Africa East,East African,64,27,41,52,32,40
+AFW,Africa West,West African,77,20,46,54,9,78
+ALB,Albania,Albanian,#NULL!,#NULL!,#NULL!,#NULL!,61,15
+ALG,Algeria,Algerian,#NULL!,#NULL!,#NULL!,#NULL!,26,32
+AND,Andorra,Andorran,#NULL!,#NULL!,#NULL!,#NULL!,#NULL!,65
+ARA,Arab countries,Arab,80,38,53,68,23,34
+ARG,Argentina,Argentine,49,46,56,86,20,62
+ARM,Armenia,Armenian,#NULL!,#NULL!,#NULL!,#NULL!,61,#NULL!
+AUL,Australia,Australian,38,90,61,51,21,71
+AUT,Austria,Austrian,11,55,79,70,60,63
+AZE,Azerbaijan,Azerbaijani,#NULL!,#NULL!,#NULL!,#NULL!,61,22
+BAN,Bangladesh,Bangladeshi,80,20,55,60,47,20
+BLR,Belarus,Belarusian,#NULL!,#NULL!,#NULL!,#NULL!,81,15
+BEL,Belgium,Belgian,65,75,54,94,82,57
+BEF,Belgium French,Belgian (French-speaking),67,72,60,93,#NULL!,#NULL!
+BEN,Belgium Netherl,Belgian (Dutch-speaking),61,78,43,97,#NULL!,#NULL!
+BOS,Bosnia,Bosnian,#NULL!,#NULL!,#NULL!,#NULL!,70,44
+BRA,Brazil,Brazilian,69,38,49,76,44,59
+BUL,Bulgaria,Bulgarian,70,30,40,85,69,16
+BUF,Burkina Faso,Burkinabe,#NULL!,#NULL!,#NULL!,#NULL!,27,18
+CAN,Canada,Canadian,39,80,52,48,36,68
+CAF,Canada French,Canadian (French-speaking),54,73,45,60,#NULL!,#NULL!
+CHL,Chile,Chilean,63,23,28,86,31,68
+CHI,China,Chinese,80,20,66,30,87,24
+COL,Colombia,Colombian,67,13,64,80,13,83
+COS,Costa Rica,Costa Rican,35,15,21,86,#NULL!,#NULL!
+CRO,Croatia,Croatian,73,33,40,80,58,33
+CYP,Cyprus,Cypriot,#NULL!,#NULL!,#NULL!,#NULL!,#NULL!,70
+CZE,Czech Rep,Czech,57,58,57,74,70,29
+DEN,Denmark,Danish,18,74,16,23,35,70
+DOM,Dominican Rep,Dominican,#NULL!,#NULL!,#NULL!,#NULL!,13,54
+ECA,Ecuador,Ecuadorian,78,8,63,67,#NULL!,#NULL!
+EGY,Egypt,Egyptian,#NULL!,#NULL!,#NULL!,#NULL!,7,4
+SAL,El Salvador,Salvadoran,66,19,40,94,20,89
+EST,Estonia,Estonian,40,60,30,60,82,16
+ETH,Ethiopia,Ethiopian,#NULL!,#NULL!,#NULL!,#NULL!,#NULL!,46
+FIN,Finland,Finnish,33,63,26,59,38,57
+FRA,France,French,68,71,43,86,63,48
+GEO,Georgia,Georgian,#NULL!,#NULL!,#NULL!,#NULL!,38,32
+GER,Germany,German,35,67,66,65,83,40
+GEE,Germany East,East German,#NULL!,#NULL!,#NULL!,#NULL!,78,34
+GHA,Ghana,Ghanaian,#NULL!,#NULL!,#NULL!,#NULL!,4,72
+GBR,Great Britain,British,35,89,66,35,51,69
+GRE,Greece,Greek,60,35,57,100,45,50
+GUA,Guatemala,Guatemalan,95,6,37,98,#NULL!,#NULL!
+HOK,Hong Kong,Hong Konger,68,25,57,29,61,17
+HUN,Hungary,Hungarian,46,80,88,82,58,31
+ICE,Iceland,Icelander,#NULL!,#NULL!,#NULL!,#NULL!,28,67
+IND,India,Indian,77,48,56,40,51,26
+IDO,Indonesia,Indonesian,78,14,46,48,62,38
+IRA,Iran,Iranian,58,41,43,59,14,40
+IRQ,Iraq,Iraqi,#NULL!,#NULL!,#NULL!,#NULL!,25,17
+IRE,Ireland,Irish,28,70,68,35,24,65
+ISR,Israel,Israeli,13,54,47,81,38,#NULL!
+ITA,Italy,Italian,50,76,70,75,61,30
+JAM,Jamaica,Jamaican,45,39,68,13,#NULL!,#NULL!
+JPN,Japan,Japanese,54,46,95,92,88,42
+JOR,Jordan,Jordanian,#NULL!,#NULL!,#NULL!,#NULL!,16,43
+KOR,Korea South,South Korean,60,18,39,85,100,29
+KYR,Kyrgyz Rep,Kyrgyzstani,#NULL!,#NULL!,#NULL!,#NULL!,66,39
+LAT,Latvia,Latvian,44,70,9,63,69,13
+LIT,Lithuania,Lithuanian,42,60,19,65,82,16
+LUX,Luxembourg,Luxembourgish,40,60,50,70,64,56
+MAC,Macedonia Rep,Macedonian,#NULL!,#NULL!,#NULL!,#NULL!,62,35
+MAL,Malaysia,Malay,100,26,50,36,41,57
+MLI,Mali,Malian,#NULL!,#NULL!,#NULL!,#NULL!,20,43
+MLT,Malta,Maltese,56,59,47,96,47,66
+MEX,Mexico,Mexican,81,30,69,82,24,97
+MOL,Moldova,Moldovan,#NULL!,#NULL!,#NULL!,#NULL!,71,19
+MNG,Montenegro,Montenegrin,#NULL!,#NULL!,#NULL!,#NULL!,75,20
+MOR,Morocco,Moroccan,70,46,53,68,14,25
+NET,Netherlands,Dutch,38,80,14,53,67,68
+NZL,New Zealand,New Zealander,22,79,58,49,33,75
+NIG,Nigeria,Nigerian,#NULL!,#NULL!,#NULL!,#NULL!,13,84
+NOR,Norway,Norwegian,31,69,8,50,35,55
+PAK,Pakistan,Pakistani,55,14,50,70,50,0
+PAN,Panama,Panamanian,95,11,44,86,#NULL!,#NULL!
+PER,Peru,Peruvian,64,16,42,87,25,46
+PHI,Philippines,Filipino,94,32,64,44,27,42
+POL,Poland,Polish,68,60,64,93,38,29
+POR,Portugal,Portuguese,63,27,31,99,28,33
+PUE,Puerto Rico,Puerto Rican,#NULL!,#NULL!,#NULL!,#NULL!,0,90
+ROM,Romania,Romanian,90,30,42,90,52,20
+RUS,Russia,Russian,93,39,36,95,81,20
+RWA,Rwanda,Rwandan,#NULL!,#NULL!,#NULL!,#NULL!,18,37
+SAU,Saudi Arabia,Saudi Arabian,#NULL!,#NULL!,#NULL!,#NULL!,36,52
+SER,Serbia,Serbian,86,25,43,92,52,28
+SIN,Singapore,Singaporean,74,20,48,8,72,46
+SLK,Slovak Rep,Slovakian,100,52,100,51,77,28
+SLV,Slovenia,Slovenian,71,27,19,88,49,48
+SAF,South Africa,South African,#NULL!,#NULL!,#NULL!,#NULL!,34,63
+SAW,South Africa white,South African (white population distinction),49,65,63,49,#NULL!,#NULL!
+SPA,Spain,Spanish,57,51,42,86,48,44
+SUR,Suriname,Surinamese,85,47,37,92,#NULL!,#NULL!
+SWE,Sweden,Swedish,31,71,5,29,53,78
+SWI,Switzerland,Swiss,34,68,70,58,74,66
+SWF,Switzerland French,Swiss (French-speaking),70,64,58,70,#NULL!,#NULL!
+SWG,Switzerland German,Swiss (German-speaking),26,69,72,56,#NULL!,#NULL!
+TAI,Taiwan,Taiwanese,58,17,45,69,93,49
+TAN,Tanzania,Tanzanian,#NULL!,#NULL!,#NULL!,#NULL!,34,38
+THA,Thailand,Thai,64,20,34,64,32,45
+TRI,Trinidad and Tobago,Trinidadian/Tobagonian,47,16,58,55,13,80
+TUR,Turkey,Turkish,66,37,45,85,46,49
+USA,U.S.A.,American,40,91,62,46,26,68
+UGA,Uganda,Ugandan,#NULL!,#NULL!,#NULL!,#NULL!,24,52
+UKR,Ukraine,Ukrainian,#NULL!,#NULL!,#NULL!,#NULL!,86,14
+URU,Uruguay,Uruguayan,61,36,38,98,26,53
+VEN,Venezuela,Venezuelan,81,12,73,76,16,100
+VIE,Vietnam,Vietnamese,70,20,40,30,57,35
+ZAM,Zambia,Zambian,#NULL!,#NULL!,#NULL!,#NULL!,30,42
+ZIM,Zimbabwe,Zimbabwean,#NULL!,#NULL!,#NULL!,#NULL!,15,28
