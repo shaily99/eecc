@@ -1,0 +1,347 @@
+maths	functions
+maths	trignometry
+maths	matrices
+maths	determinants
+maths	differentiability
+maths	logarithm
+maths	derivatives
+maths	maxima
+maths	minima
+maths	integrals
+maths	differential equations
+maths	vectors
+maths	probability
+maths	sets
+maths	venn diagrams
+maths	complex numbers
+maths	permutation
+maths	line
+maths	geometry
+maths	coordinate system
+maths	circle
+maths	parabola
+maths	ellipse
+maths	hyperbola
+maths	statistics
+maths	mean
+maths	median
+maths	mode
+maths	variance
+maths	standard deviation
+maths	rational numbers
+maths	irrational numbers
+maths	linear equations
+maths	surface area
+maths	volume
+maths	polynomials
+maths	pythagoras theorem
+maths	euclidean geometry
+maths	exponents
+maths	graphs
+physics	conductors
+physics	insulators
+physics	electricty
+physics	magnetism
+physics	capacitance
+physics	Ohm's law
+physics	voltage
+physics	waves
+physics	reflection
+physics	refraction
+physics	semi-conductors
+physics	velocity
+physics	acceleration
+physics	inertia
+physics	motion
+physics	energy
+physics	mass
+physics	gravity
+physics	torque
+physics	friction
+physics	elasticity
+physics	viscocity
+physics	thermodynamics
+physics	oscillations
+physics	pressure
+physics	conduction
+physics	convection
+physics	kinetic energy
+physics	potential energy
+physics	nuclear fission
+chemistry	matter
+chemistry	atoms
+chemistry	molecules
+chemistry	stoichiometry
+chemistry	periodic table
+chemistry	chemical reactions
+chemistry	acid
+chemistry	base
+chemistry	salt
+chemistry	ionization
+chemistry	oxidation
+chemistry	hydrocarbons
+chemistry	metals
+chemistry	catalysts
+chemistry	inorganic compunds
+chemistry	combustion
+chemistry	distillation
+chemistry	reduction
+chemistry	electrolytes
+chemistry	neutralization
+chemistry	pH scale
+biology	anatomy
+biology	carbohydrates
+biology	proteins
+biology	vitamins
+biology	photosynthesis
+biology	respiration
+biology	physiology
+biology	digestion
+biology	reproduction
+biology	cell division
+biology	genetics
+biology	evolution
+biology	skeletal system
+biology	muscular system
+biology	nervous system
+biology	microorganisms
+biology	photosynthesis
+biology	respiration
+biology	symbiotic relationship
+biology	parasites
+biology	extinction
+biology	genetically modified organisms (GMOs)
+biology	diseases
+biology	pathogens
+biology	microscopes
+biology	chlorophyll
+biology	DNA
+biology	endocrine system
+economics	GDP
+economics	profit and loss
+economics	banks
+economics	debt
+economics	fiscal policy
+economics	unemployement
+economics	inflation
+economics	demand and supply
+economics	markets
+economics	equity
+economics	currency
+economics	opportunity cost
+economics	consumerism
+economics	bankruptcy
+economics	stock market
+economics	recession
+economics	taxes
+economics	income
+economics	economy
+economics	trade
+economics	finance
+economics	cost benefit analysis
+economics	marginal cost
+space	stars
+space	planets
+space	satellites
+space	meteors
+space	bug bang
+space	asteroids
+space	black hole
+space	solar system
+space	sun
+space	earth
+space	moon
+space	galaxy
+space	constellation
+space	comets
+space	supernova
+politics	democracy
+politics	monarchy
+politics	dictatorship
+politics	elections
+politics	legislature
+politics	judiciary
+politics	bureaucracy
+politics	governance
+politics	referendum
+politics	democratization
+politics	diplomacy
+politics	public policy
+politics	advocacy
+politics	voters
+politics	suffrage
+politics	capitalism
+politics	socialism
+politics	communism
+politics	fascism
+politics	anarchism
+politics	marxism
+politics	left-wing
+politics	right-wing
+politics	coalition
+politics	nationalizm
+politics	political parties
+politics	communalism
+politics	secularism
+politics	regionalism
+world affairs	United Nations
+world affairs	literacy
+world affairs	human rights
+world affairs	urbanization
+world affairs	gentrification
+world affairs	social media
+world affairs	mass media
+world affairs	journalism
+world affairs	corporations
+world affairs	monopoly
+world affairs	social empowerment
+world affairs	poverty
+world affairs	public transport
+world affairs	disenfranchisement
+world affairs	LGBT rights
+world affairs	racism
+world affairs	hate speech
+world affairs	accentism
+world affairs	Entrepreneurship
+world affairs	cinema
+world affairs	population
+world affairs	immigration
+world affairs	emigration
+world affairs	malnutrition
+environment	geology
+environment	rocks
+environment	sendiment
+environment	natural resources
+environment	forests
+environment	wildlife
+environment	mountains
+environment	oceans
+environment	rivers
+environment	ores
+environment	mining
+environment	glaciers
+environment	islands
+environment	lakes
+environment	maps
+environment	climate
+environment	global warming
+environment	wildfire
+environment	cyclones
+environment	earthquake
+environment	volcanoes
+environment	flood
+environment	drought
+environment	tsunami
+environment	atmosphere
+environment	climatology
+environment	oceanology
+environment	craters
+environment	sustainable energy
+environment	windmills
+environment	hydrosphere
+environment	ecosystem
+environment	food chain
+environment	nonrewable energy
+environment	solar power
+environment	hydropower
+environment	pollution
+environment	climate change
+environment	air pollution
+environment	water pollution
+environment	soil erosion
+environment	greenhouse effect
+history	French revolution
+history	American civil war
+history	World War 1
+history	World War 2
+history	Cold war
+history	Vietnam war
+history	Gulf war
+history	Napoleonic wars
+history	Industrial revolution
+history	Women's suffrage
+history	colonialism
+history	9/11 attacks
+history	Herero and Namaqua Genocide
+history	Balkan wars
+history	Sinking of RMS Titanic
+history	Treaty of Versailles
+history	Jallianwala Bagh massacre
+history	Russian Civil War
+history	Chinese Civil War
+history	Great Depression
+history	Spanish Civil War
+history	The Great Palestinian Revolt
+history	Greek Civil War
+history	Indochina wars
+history	Apartheid
+history	Partition of India
+history	Korean war
+history	Egyption Revolution
+history	Sudanese civil war
+history	Great Chinese Famine
+history	Angolan War of Independence
+history	Sino-Indian wars
+history	Civil rights movement
+history	Rhodesian Bush War
+history	Indo-Pakistani wars
+history	Sino-soviet conflict
+history	Apollo 13
+history	Bangladesh Liberation War
+history	Ethiopian Civil War
+history	AIDS epidemic
+history	Bhopal gas tragedy
+history	Chernobyl disaster
+history	Iran-Iraq war
+history	North Korean famine
+history	Nepali civil war
+history	Liberian civil war
+history	Salvadorian civil war
+history	Chechen wars
+law	justice
+law	law
+law	law enforcement
+law	constitution
+law	supreme court
+law	lawyers
+law	jurisdiction
+law	precedent
+law	regulations
+law	statutes
+law	freedom of speech
+law	litigation
+law	jury
+humanities	anthropology
+humanities	ethnography
+humanities	literature
+humanities	performing arts
+humanities	theatre
+humanities	archaelogy
+humanities	cultural studies
+humanities	philosophy
+humanities	psychology
+humanities	sociology
+humanities	fine arts
+religion	theology
+religion	religion
+religion	monotheism
+religion	Islam
+religion	Hinduism
+religion	Chritianity
+religion	polytheism
+religion	Judaism
+religion	Baháʼí Faith
+religion	Mormonism
+religion	Mandaeism
+religion	Samaritanism
+religion	Buddhism
+religion	Jainism
+religion	Sikkhism
+religion	Yungdrung Bon
+religion	Zoroastrianism
+religion	Taoism
+religion	Confucianism
+religion	Shinto
+religion	Tian
+religion	Shangadi
+religion	Hongjun Laozu
