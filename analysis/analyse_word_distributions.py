@@ -1,4 +1,4 @@
-# Analyse the word distributions for the outputs using KL Divergence
+# Analyse the word distributions for the outputs using TfIDF or KL Divergence
 
 import argparse
 import math
@@ -20,20 +20,20 @@ def parse_args():
     parser.add_argument(
         "--level",
         type=str,
-        help="Level of analysis. If empty, all topics are combined and a single word distribution is analysed. Otherwise word distribution is analysed at topic level.",
+        help="Level of analysis. If empty, all topics are combined and a single word distribution is analysed. Otherwise word distribution is analysed at topic level. Paper reports topic level analysis.",
         choices=["topic", ""],
-        default="",
+        default="topic",
     )
     parser.add_argument(
         "--topic_keys",
         type=str,
         help="Comma separated list of topics to analyse",
-        default="",
+        required=True
     )
     parser.add_argument(
-        "--type",
+        "--correlation_measure",
         type=str,
-        help="Type of analysis",
+        help="KL Divergence ('kld') or Tf-IDF ('tfidf') can be used as correlation measure. Paper reprts analysis using tfidf",
         default="tfidf",
         choices=["kld", "tfidf"],
     )
@@ -190,9 +190,9 @@ if __name__ == "__main__":
     )
     if args.level == "topic":
         print("Topic level analysis", flush=True)
-        results = main_topic(tokenized_data, args.type)
+        results = main_topic(tokenized_data, args.correlation_measure)
     else:
         print("Overall analysis", flush=True)
-        results = main_overall(tokenized_data, args.type)
+        results = main_overall(tokenized_data, args.correlation_measure)
     with open(args.output, "w") as f:
         f.write("\n".join(results))

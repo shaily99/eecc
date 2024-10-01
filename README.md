@@ -42,6 +42,10 @@ MAX_RESPONSE_TOKENS=<100 or 1000 for QA and stories respectively>
 python corpus_collection/query_vllm.py --prompts ${PROMPTS} --output ${OUTPUT} --model ${MODEL} --base_url ${BASE_URL} --tempterature ${TEMPERATURE} --num_responses_per_prompt ${NUM_RESPONSES_PER_PROMPT} --max_response_tokens ${MAX_RESPONSE_TOKENS}
 ```
 
+### Model Responses
+
+We make the model outputs public for further analysis on [add link](test)
+
 ## Analysis of Outputs
 
 ### Lexical Variance
@@ -92,3 +96,81 @@ python analysis/calculate_within_nationality_lexical_variance.py --responses ${R
 
 ```
 
+### Correlation with Cultural Values
+
+#### Cultural Values Vectors
+The world values survey and hofstede cultural values vectores are stored in `data/distances_hofstede_raw_with_demonymns.csv` and `data/wvs_250_dims_with_demonyms.csv` respectively.
+
+#### Computing Similarity in Outputs
+
+To measure correlation of text distributions of outputs and the cultural values, we first pre-compute the text similarity between outputs across nationalities using `analysis/compute_similarity.py`
+
+```
+RESPONSES=<MODEL responses>
+OUTPUT=<Output file>
+TOPICS=<List of topics> # This is "stories" for stories; and "biology,chemistry,economics,environment,history,humanities,law,maths,physics,politics,space,religion,world affairs" for QA.
+
+python analysis/compute_similarity.py --responses ${RESPONSES} --output ${OUTPUT} --topic_keys ${TOPICS} --metric "bleu"
+```
+
+
+#### Analysing Kendall's Tau between text distribution and cultural values
+
+To calculate the correlation for Section 5.3, we use `anaylsis/analyse_kendalls_tau`
+
+```
+SIMILARITY_PATH=<Path to similarities calculated in previous step>
+CULTURAL_VECTORS_PATH=<Path to either hofstede or world value survey cultural vectors>
+CULTURAL_VECTORS_TYPE=<Either "hofstede_vector_distance" or "wvs_250_dims_vector_distance">
+OUTPUT=<Path to output>
+
+python analysis/analyse_kendalls_tau.py --similarity ${SIMILARITY_PATH} --cultural_distances ${CULTURAL_VECTORS_PATH} --cultural_distance_type ${CULTURAL_VECTORS_TYPE} --text_similarity_metric "bleu"
+
+```
+
+### Correlated Words
+
+For surfacing the top correlated words for the different countries, we first tokenize all the outputs and then cacluclate the Tf-idf for every country; where all outputs for a country are considered as one document
+
+#### Output tokenization
+
+We use `analysis/store_tokens.py` for tokenizing all outputs. This uses the NLTK word_tokenize() for tokenization.
+
+```
+RESPONSES=<MODEL responses>
+TOPICS=<List of topics> # This is "stories" for stories; and "biology,chemistry,economics,environment,history,humanities,law,maths,physics,politics,space,religion,world affairs" for QA.
+
+python analysis/store_tokens.py --responses ${RESPONSES} --topic_keys ${TOPICS}
+```
+
+#### Printing correlated words
+Prints the top 25 and bottom 25 correlated words
+
+```
+TOKENIZED_RESPONSES=<Tokenized MODEL responses>
+OUTPUT=<Output path>
+
+TOPICS=<List of topics> # This is "stories" for stories; and "biology,chemistry,economics,environment,history,humanities,law,maths,physics,politics,space,religion,world affairs" for QA.
+
+python analysis/store_tokens.py --responses ${RESPONSES} --output ${OUTPUT} --topic_keys ${TOPICS} --correlation_measure "tf-idf"
+```
+
+## Citation
+
+If you use our code or data please cite our paper
+
+```
+@inproceedings{bhatt-diaz-2024-extrinsic,
+    title = "Extrinsic Evaluation of Cultural Competence in Large Language Models",
+    author = "Bhatt, Shaily  and
+      Diaz, Fernando",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida",
+    publisher = "Association for Computational Linguistics"
+}
+```

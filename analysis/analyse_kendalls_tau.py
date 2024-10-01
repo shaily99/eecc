@@ -14,7 +14,7 @@ def parse_args():
         "--similarity", type=str, help="Path to text similarity file.", required=True
     )
     argparser.add_argument(
-        "--distances",
+        "--cultural_distances",
         type=str,
         help="Path to cultural distances file.",
         required=True
@@ -31,7 +31,7 @@ def parse_args():
         required=True
     )
     argparser.add_argument(
-        "--text_similarity_metric", type=str, default="bleu", choices=["bleu", "wer"], required=True
+        "--text_similarity_metric", type=str, default="bleu", required=True
     )
 
     return argparser.parse_args()
@@ -154,7 +154,7 @@ if __name__ == "__main__":
     args = parse_args()
     similarity = utils.parse_similarity_csv(args.similarity)
     print("got text similarity/distances")
-    distances = utils.get_distances(args.distances, args.cultural_distance_type)
+    distances = utils.get_distances(args.cultural_distances, args.cultural_distance_type)
     print("got cultural distances")
     reversal = reverse_ranklist(
         args.text_similarity_metric, args.cultural_distance_type
