@@ -62,7 +62,7 @@ python corpus_collection/query_vllm.py --prompts ${PROMPTS} --output ${OUTPUT} -
 
 ### Model Responses
 
-We make the model outputs public for further analysis on [this huggingface data repository]([test](https://huggingface.co/datasets/shaily99/eecc))
+We make the model outputs public for further analysis on [this huggingface data repository](https://huggingface.co/datasets/shaily99/eecc)
 
 ## Analysis of Outputs
 
