@@ -1,12 +1,10 @@
 # Extrinsic Evaluation of Cultural Competence in Large Language Models
 
-This is code for replicating the experiments in the paper Extrinsic Evaluation of Cultural Competence in Large Language Models.
-
-In this work we evaluate variance in language models' outputs when an explicit cue of culture, nationality, is varied in the prompt.
+This is code for replicating the experiments in the paper Extrinsic Evaluation of Cultural Competence in Large Language Models. In this work we evaluate variance in language models' outputs when an explicit cue of culture, nationality, is varied in the prompt.
 
 ## Citation
 
-If you use our code or data please cite our paper
+If you use our code or data please cite our paper:
 
 ```
 @inproceedings{bhatt-diaz-2024-extrinsic,
@@ -30,7 +28,6 @@ The prompt template, concepts, and identities we use can be found in the `../dat
 
 ### Prompt creation
 Prompts can be constructed from templates, concepts, and identities using `corpus_collection/create_prompts.py`
-
 
 ```
 BASE_DIR="data/"
