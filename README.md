@@ -4,6 +4,26 @@ This is code for replicating the experiments in the paper Extrinsic Evaluation o
 
 In this work we evaluate variance in language models' outputs when an explicit cue of culture, nationality, is varied in the prompt.
 
+## Citation
+
+If you use our code or data please cite our paper
+
+```
+@inproceedings{bhatt-diaz-2024-extrinsic,
+    title = "Extrinsic Evaluation of Cultural Competence in Large Language Models",
+    author = "Bhatt, Shaily  and
+      Diaz, Fernando",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida",
+    publisher = "Association for Computational Linguistics"
+}
+```
+
 ## Corpus Collection
 
 The prompt template, concepts, and identities we use can be found in the `../data` folder. 
@@ -153,24 +173,4 @@ OUTPUT=<Output path>
 TOPICS=<List of topics> # This is "stories" for stories; and "biology,chemistry,economics,environment,history,humanities,law,maths,physics,politics,space,religion,world affairs" for QA.
 
 python analysis/store_tokens.py --responses ${RESPONSES} --output ${OUTPUT} --topic_keys ${TOPICS} --correlation_measure "tf-idf"
-```
-
-## Citation
-
-If you use our code or data please cite our paper
-
-```
-@inproceedings{bhatt-diaz-2024-extrinsic,
-    title = "Extrinsic Evaluation of Cultural Competence in Large Language Models",
-    author = "Bhatt, Shaily  and
-      Diaz, Fernando",
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida",
-    publisher = "Association for Computational Linguistics"
-}
 ```
