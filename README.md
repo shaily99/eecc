@@ -1,6 +1,7 @@
 # Extrinsic Evaluation of Cultural Competence in Large Language Models
 
-This is code for replicating the experiments in the paper Extrinsic Evaluation of Cultural Competence in Large Language Models. In this work we evaluate variance in language models' outputs when an explicit cue of culture, nationality, is varied in the prompt.
+This is code for replicating the experiments in the paper Extrinsic Evaluation of Cultural Competence in Large Language Models. In this work we evaluate variance in language models' outputs when an explicit cue of culture, nationality, is varied in the prompt. We also make the model outputs public for further analysis on [this huggingface data repository]([test](https://huggingface.co/datasets/shaily99/eecc))
+
 
 ## Citation
 
